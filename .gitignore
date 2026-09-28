@@ -1,0 +1,55 @@
+# Environment
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Uploaded resumes
+backend/var/uploads/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+backend/.venv/
+*.egg-info/
+.eggs/
+dist/
+build/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+.tox/
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+*.log
+npm-debug.log*
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Docker
+postgres_data/
+neo4j_data/
+
+# Temporary extraction artifacts
+_prd_extract.txt
+
+# OS
+desktop.ini

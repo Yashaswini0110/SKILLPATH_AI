@@ -1,0 +1,723 @@
+{
+  "version": 1,
+  "synthetic": true,
+  "notes": "Phase 7 starter catalog. Skill keys are taxonomy `name` values. Descriptions are original and synthetic. This is inventory, not a ranked recommendation.",
+  "courses": [
+    {
+      "title": "Python for Data Work",
+      "provider": "SkillPath Academy",
+      "description": "Write clean Python for files, functions, and tabular data. Aimed at analysts moving into ML.",
+      "difficulty": 2,
+      "duration_hours": 12,
+      "format": "video",
+      "url": "https://learn.skillpath.example/courses/python-data-work",
+      "rating": 4.5,
+      "skills": [
+        {"name": "Python", "level": 3},
+        {"name": "Pandas", "level": 2}
+      ]
+    },
+    {
+      "title": "SQL for Analysts",
+      "provider": "SkillPath Academy",
+      "description": "Query, join, and aggregate relational data, then move results into analysis notebooks.",
+      "difficulty": 2,
+      "duration_hours": 10,
+      "format": "hands-on",
+      "url": "https://learn.skillpath.example/courses/sql-for-analysts",
+      "rating": 4.6,
+      "skills": [
+        {"name": "SQL", "level": 4},
+        {"name": "Data Analysis", "level": 3},
+        {"name": "PostgreSQL", "level": 3}
+      ]
+    },
+    {
+      "title": "Applied Statistics Primer",
+      "provider": "Open Courseware",
+      "description": "Distributions, confidence intervals, hypothesis tests, and bias that show up in ML metrics.",
+      "difficulty": 3,
+      "duration_hours": 14,
+      "format": "text",
+      "url": "https://learn.skillpath.example/courses/applied-statistics",
+      "rating": 4.3,
+      "skills": [
+        {"name": "Statistics", "level": 4}
+      ]
+    },
+    {
+      "title": "Machine Learning Foundations",
+      "provider": "SkillPath Academy",
+      "description": "Supervised baselines, train/validation splits, and feature construction without a neural net.",
+      "difficulty": 3,
+      "duration_hours": 20,
+      "format": "video",
+      "url": "https://learn.skillpath.example/courses/ml-foundations",
+      "rating": 4.7,
+      "skills": [
+        {"name": "Machine Learning", "level": 4},
+        {"name": "Statistics", "level": 3},
+        {"name": "Feature Engineering", "level": 3},
+        {"name": "Python", "level": 3}
+      ]
+    },
+    {
+      "title": "Deep Learning with Neural Nets",
+      "provider": "SkillPath Academy",
+      "description": "Build feed-forward and convolutional models, watch overfitting, and read training curves.",
+      "difficulty": 4,
+      "duration_hours": 22,
+      "format": "video",
+      "url": "https://learn.skillpath.example/courses/deep-learning-nets",
+      "rating": 4.4,
+      "skills": [
+        {"name": "Deep Learning", "level": 4},
+        {"name": "Machine Learning", "level": 3},
+        {"name": "Python", "level": 3}
+      ]
+    },
+    {
+      "title": "NLP Essentials",
+      "provider": "SkillPath Academy",
+      "description": "Tokenization, embeddings, and classic text classification before transformers.",
+      "difficulty": 4,
+      "duration_hours": 16,
+      "format": "video",
+      "url": "https://learn.skillpath.example/courses/nlp-essentials",
+      "rating": 4.4,
+      "skills": [
+        {"name": "NLP", "level": 4},
+        {"name": "Machine Learning", "level": 3},
+        {"name": "Python", "level": 3}
+      ]
+    },
+    {
+      "title": "Transformers and Attention",
+      "provider": "Open Courseware",
+      "description": "Self-attention, encoder/decoder stacks, and why positional encodings exist.",
+      "difficulty": 5,
+      "duration_hours": 18,
+      "format": "text",
+      "url": "https://learn.skillpath.example/courses/transformers-attention",
+      "rating": 4.5,
+      "skills": [
+        {"name": "Transformers", "level": 4},
+        {"name": "NLP", "level": 3},
+        {"name": "Deep Learning", "level": 3}
+      ]
+    },
+    {
+      "title": "Large Language Models in Practice",
+      "provider": "SkillPath Academy",
+      "description": "Use hosted and open LLMs safely: context windows, evaluation, and failure modes.",
+      "difficulty": 4,
+      "duration_hours": 15,
+      "format": "video",
+      "url": "https://learn.skillpath.example/courses/llms-in-practice",
+      "rating": 4.6,
+      "skills": [
+        {"name": "LLMs", "level": 4},
+        {"name": "Transformers", "level": 3},
+        {"name": "Prompt Engineering", "level": 3}
+      ]
+    },
+    {
+      "title": "Retrieval-Augmented Generation",
+      "provider": "SkillPath Academy",
+      "description": "Chunk documents, embed them, retrieve, and ground answers without inventing employee data.",
+      "difficulty": 4,
+      "duration_hours": 16,
+      "format": "hands-on",
+      "url": "https://learn.skillpath.example/courses/rag-systems",
+      "rating": 4.8,
+      "skills": [
+        {"name": "RAG", "level": 4},
+        {"name": "Vector Databases", "level": 4},
+        {"name": "LLMs", "level": 3}
+      ]
+    },
+    {
+      "title": "Prompt Engineering Workshop",
+      "provider": "Internal L&D",
+      "description": "Write, test, and version prompts for extraction, grading, and tool-calling tasks.",
+      "difficulty": 3,
+      "duration_hours": 6,
+      "format": "live",
+      "url": "https://learn.skillpath.example/courses/prompt-workshop",
+      "rating": 4.2,
+      "skills": [
+        {"name": "Prompt Engineering", "level": 4},
+        {"name": "LLMs", "level": 3}
+      ]
+    },
+    {
+      "title": "Vector Search Lab",
+      "provider": "Cloud Lab",
+      "description": "Index embeddings, tune similarity, and measure recall versus latency.",
+      "difficulty": 3,
+      "duration_hours": 8,
+      "format": "hands-on",
+      "url": "https://learn.skillpath.example/courses/vector-search-lab",
+      "rating": 4.3,
+      "skills": [
+        {"name": "Vector Databases", "level": 4},
+        {"name": "RAG", "level": 3}
+      ]
+    },
+    {
+      "title": "FastAPI Services",
+      "provider": "SkillPath Academy",
+      "description": "Design REST endpoints, validate payloads, and persist to PostgreSQL.",
+      "difficulty": 3,
+      "duration_hours": 14,
+      "format": "hands-on",
+      "url": "https://learn.skillpath.example/courses/fastapi-services",
+      "rating": 4.6,
+      "skills": [
+        {"name": "FastAPI", "level": 4},
+        {"name": "REST APIs", "level": 4},
+        {"name": "Python", "level": 3},
+        {"name": "PostgreSQL", "level": 3}
+      ]
+    },
+    {
+      "title": "Docker for Practitioners",
+      "provider": "Cloud Lab",
+      "description": "Package an app, manage images, and run local multi-service stacks.",
+      "difficulty": 2,
+      "duration_hours": 8,
+      "format": "hands-on",
+      "url": "https://learn.skillpath.example/courses/docker-practitioners",
+      "rating": 4.5,
+      "skills": [
+        {"name": "Docker", "level": 4}
+      ]
+    },
+    {
+      "title": "Kubernetes Basics",
+      "provider": "Cloud Lab",
+      "description": "Deploy a containerized service with pods, services, and rolling updates.",
+      "difficulty": 4,
+      "duration_hours": 16,
+      "format": "video",
+      "url": "https://learn.skillpath.example/courses/kubernetes-basics",
+      "rating": 4.2,
+      "skills": [
+        {"name": "Kubernetes", "level": 3},
+        {"name": "Docker", "level": 3}
+      ]
+    },
+    {
+      "title": "CI/CD Pipelines",
+      "provider": "Internal L&D",
+      "description": "Test, build, and ship on every merge with gated environments.",
+      "difficulty": 3,
+      "duration_hours": 10,
+      "format": "hands-on",
+      "url": "https://learn.skillpath.example/courses/cicd-pipelines",
+      "rating": 4.4,
+      "skills": [
+        {"name": "CI/CD", "level": 4},
+        {"name": "Git", "level": 3},
+        {"name": "Docker", "level": 3}
+      ]
+    },
+    {
+      "title": "MLOps in Practice",
+      "provider": "SkillPath Academy",
+      "description": "Track experiments, register models, and watch drift after release.",
+      "difficulty": 4,
+      "duration_hours": 18,
+      "format": "video",
+      "url": "https://learn.skillpath.example/courses/mlops-in-practice",
+      "rating": 4.5,
+      "skills": [
+        {"name": "MLOps", "level": 4},
+        {"name": "Model Deployment", "level": 3},
+        {"name": "Docker", "level": 3},
+        {"name": "CI/CD", "level": 3}
+      ]
+    },
+    {
+      "title": "Model Deployment Lab",
+      "provider": "Cloud Lab",
+      "description": "Serve a trained model behind an API with health checks and rollback.",
+      "difficulty": 4,
+      "duration_hours": 12,
+      "format": "hands-on",
+      "url": "https://learn.skillpath.example/courses/model-deployment-lab",
+      "rating": 4.4,
+      "skills": [
+        {"name": "Model Deployment", "level": 4},
+        {"name": "FastAPI", "level": 3},
+        {"name": "Docker", "level": 3}
+      ]
+    },
+    {
+      "title": "AWS Cloud for ML Workloads",
+      "provider": "Cloud Lab",
+      "description": "Store data, run training jobs, and expose inference on AWS without a full certification track.",
+      "difficulty": 3,
+      "duration_hours": 14,
+      "format": "video",
+      "url": "https://learn.skillpath.example/courses/aws-ml-workloads",
+      "rating": 4.1,
+      "skills": [
+        {"name": "AWS", "level": 4},
+        {"name": "Docker", "level": 3}
+      ]
+    },
+    {
+      "title": "Pandas Data Wrangling",
+      "provider": "SkillPath Academy",
+      "description": "Clean messy tables, reshape, and join datasets for modeling.",
+      "difficulty": 2,
+      "duration_hours": 8,
+      "format": "hands-on",
+      "url": "https://learn.skillpath.example/courses/pandas-wrangling",
+      "rating": 4.6,
+      "skills": [
+        {"name": "Pandas", "level": 4},
+        {"name": "Data Analysis", "level": 3},
+        {"name": "Python", "level": 3}
+      ]
+    },
+    {
+      "title": "Data Visualization Studio",
+      "provider": "Open Courseware",
+      "description": "Choose chart types that match the question and avoid misleading axes.",
+      "difficulty": 2,
+      "duration_hours": 7,
+      "format": "video",
+      "url": "https://learn.skillpath.example/courses/data-viz-studio",
+      "rating": 4.3,
+      "skills": [
+        {"name": "Data Visualization", "level": 4},
+        {"name": "Pandas", "level": 3}
+      ]
+    },
+    {
+      "title": "Computer Vision Intro",
+      "provider": "SkillPath Academy",
+      "description": "Image pipelines, augmentation, and a first classifier on a small dataset.",
+      "difficulty": 4,
+      "duration_hours": 16,
+      "format": "video",
+      "url": "https://learn.skillpath.example/courses/computer-vision-intro",
+      "rating": 4.2,
+      "skills": [
+        {"name": "Computer Vision", "level": 4},
+        {"name": "Deep Learning", "level": 3}
+      ]
+    },
+    {
+      "title": "React Frontends",
+      "provider": "SkillPath Academy",
+      "description": "Component state, TypeScript props, and talking to a REST API.",
+      "difficulty": 3,
+      "duration_hours": 16,
+      "format": "hands-on",
+      "url": "https://learn.skillpath.example/courses/react-frontends",
+      "rating": 4.5,
+      "skills": [
+        {"name": "React", "level": 4},
+        {"name": "JavaScript", "level": 3},
+        {"name": "TypeScript", "level": 3}
+      ]
+    },
+    {
+      "title": "System Design Primer",
+      "provider": "Open Courseware",
+      "description": "APIs, data stores, and scaling trade-offs for a competency platform.",
+      "difficulty": 4,
+      "duration_hours": 12,
+      "format": "text",
+      "url": "https://learn.skillpath.example/courses/system-design-primer",
+      "rating": 4.4,
+      "skills": [
+        {"name": "System Design", "level": 4},
+        {"name": "REST APIs", "level": 3}
+      ]
+    },
+    {
+      "title": "Document Stores with MongoDB",
+      "provider": "Cloud Lab",
+      "description": "Model documents, index them, and know when not to use a document store.",
+      "difficulty": 2,
+      "duration_hours": 6,
+      "format": "video",
+      "url": "https://learn.skillpath.example/courses/mongodb-documents",
+      "rating": 4.0,
+      "skills": [
+        {"name": "MongoDB", "level": 4}
+      ]
+    },
+    {
+      "title": "Git Collaboration",
+      "provider": "Internal L&D",
+      "description": "Branch, review, and recover work without rewriting shared history.",
+      "difficulty": 1,
+      "duration_hours": 4,
+      "format": "live",
+      "url": "https://learn.skillpath.example/courses/git-collaboration",
+      "rating": 4.7,
+      "skills": [
+        {"name": "Git", "level": 4}
+      ]
+    },
+    {
+      "title": "Java Backend Basics",
+      "provider": "Open Courseware",
+      "description": "Services, types, and REST handlers for teams that already use Java.",
+      "difficulty": 3,
+      "duration_hours": 14,
+      "format": "video",
+      "url": "https://learn.skillpath.example/courses/java-backend-basics",
+      "rating": 4.1,
+      "skills": [
+        {"name": "Java", "level": 3},
+        {"name": "REST APIs", "level": 3}
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Employee Skills API",
+      "description": "Build a FastAPI service that stores employee skills in PostgreSQL and exposes REST endpoints.",
+      "difficulty": 3,
+      "duration_hours": 20,
+      "technologies": ["Python", "FastAPI", "PostgreSQL", "Docker"],
+      "deliverables": ["OpenAPI spec", "Docker Compose stack", "CRUD tests"],
+      "skills": [
+        {"name": "Python", "level": 4},
+        {"name": "FastAPI", "level": 4},
+        {"name": "PostgreSQL", "level": 3},
+        {"name": "REST APIs", "level": 4},
+        {"name": "Docker", "level": 3}
+      ]
+    },
+    {
+      "title": "Team Metrics Dashboard",
+      "description": "Query warehouse tables and present a weekly skills report with honest empty states.",
+      "difficulty": 2,
+      "duration_hours": 16,
+      "technologies": ["SQL", "Pandas", "charts"],
+      "deliverables": ["Notebook", "Three annotated charts", "Readme of caveats"],
+      "skills": [
+        {"name": "SQL", "level": 4},
+        {"name": "Pandas", "level": 3},
+        {"name": "Data Visualization", "level": 4},
+        {"name": "Data Analysis", "level": 4}
+      ]
+    },
+    {
+      "title": "Churn Classifier",
+      "description": "Train a baseline classifier, compare features, and report precision/recall with a holdout set.",
+      "difficulty": 3,
+      "duration_hours": 24,
+      "technologies": ["Python", "scikit-learn", "Pandas"],
+      "deliverables": ["Training script", "Metrics table", "Feature notes"],
+      "skills": [
+        {"name": "Machine Learning", "level": 4},
+        {"name": "Feature Engineering", "level": 4},
+        {"name": "Python", "level": 3},
+        {"name": "Pandas", "level": 3},
+        {"name": "Statistics", "level": 3}
+      ]
+    },
+    {
+      "title": "Small Image Classifier",
+      "description": "Train a CNN on a tiny labeled set and document augmentation choices.",
+      "difficulty": 4,
+      "duration_hours": 20,
+      "technologies": ["Python", "PyTorch"],
+      "deliverables": ["Training notebook", "Confusion matrix", "Limitations note"],
+      "skills": [
+        {"name": "Computer Vision", "level": 4},
+        {"name": "Deep Learning", "level": 4},
+        {"name": "Python", "level": 3}
+      ]
+    },
+    {
+      "title": "Support Ticket Classifier",
+      "description": "Classify short tickets with a classical NLP pipeline before swapping in a transformer.",
+      "difficulty": 3,
+      "duration_hours": 18,
+      "technologies": ["Python", "scikit-learn"],
+      "deliverables": ["Labeled split", "Baseline model", "Error analysis"],
+      "skills": [
+        {"name": "NLP", "level": 4},
+        {"name": "Machine Learning", "level": 3},
+        {"name": "Python", "level": 3}
+      ]
+    },
+    {
+      "title": "Document Q&A System",
+      "description": "Index a policy handbook and answer questions only from retrieved passages.",
+      "difficulty": 4,
+      "duration_hours": 28,
+      "technologies": ["Python", "vector store", "LLM API"],
+      "deliverables": ["Ingestion script", "Eval questions", "Citation UI"],
+      "skills": [
+        {"name": "RAG", "level": 4},
+        {"name": "LLMs", "level": 4},
+        {"name": "Vector Databases", "level": 4},
+        {"name": "Prompt Engineering", "level": 3}
+      ]
+    },
+    {
+      "title": "LLM Chat Service",
+      "description": "Wrap an LLM behind FastAPI with prompt templates and refusal when context is missing.",
+      "difficulty": 3,
+      "duration_hours": 16,
+      "technologies": ["FastAPI", "LLM API"],
+      "deliverables": ["Chat endpoint", "Prompt file", "Guardrail tests"],
+      "skills": [
+        {"name": "LLMs", "level": 4},
+        {"name": "FastAPI", "level": 3},
+        {"name": "Prompt Engineering", "level": 4}
+      ]
+    },
+    {
+      "title": "Served Churn Model",
+      "description": "Package the churn model as a versioned API with a health check and sample payload.",
+      "difficulty": 4,
+      "duration_hours": 18,
+      "technologies": ["FastAPI", "Docker", "model registry"],
+      "deliverables": ["Dockerfile", "Inference API", "Rollback notes"],
+      "skills": [
+        {"name": "Model Deployment", "level": 4},
+        {"name": "FastAPI", "level": 3},
+        {"name": "Docker", "level": 4},
+        {"name": "MLOps", "level": 3}
+      ]
+    },
+    {
+      "title": "Training Pipeline",
+      "description": "Automate data pull, train, test, and register a model on merge.",
+      "difficulty": 4,
+      "duration_hours": 24,
+      "technologies": ["CI", "Docker", "Kubernetes"],
+      "deliverables": ["Pipeline YAML", "Model card", "Smoke test"],
+      "skills": [
+        {"name": "MLOps", "level": 4},
+        {"name": "CI/CD", "level": 4},
+        {"name": "Docker", "level": 3},
+        {"name": "Kubernetes", "level": 3}
+      ]
+    },
+    {
+      "title": "Cloud Batch Scoring",
+      "description": "Run overnight scoring jobs on AWS and write results to object storage.",
+      "difficulty": 3,
+      "duration_hours": 16,
+      "technologies": ["AWS", "Docker", "Python"],
+      "deliverables": ["Job definition", "IAM notes", "Sample output"],
+      "skills": [
+        {"name": "AWS", "level": 4},
+        {"name": "Docker", "level": 3},
+        {"name": "Python", "level": 3}
+      ]
+    },
+    {
+      "title": "Learning Catalog UI",
+      "description": "A React catalog that lists courses from an API without ranking them.",
+      "difficulty": 3,
+      "duration_hours": 16,
+      "technologies": ["React", "TypeScript"],
+      "deliverables": ["Typed client", "List and detail views"],
+      "skills": [
+        {"name": "React", "level": 4},
+        {"name": "TypeScript", "level": 4},
+        {"name": "JavaScript", "level": 3}
+      ]
+    },
+    {
+      "title": "Event Log Store",
+      "description": "Store learning events as documents and query recent activity.",
+      "difficulty": 2,
+      "duration_hours": 12,
+      "technologies": ["MongoDB", "REST"],
+      "deliverables": ["Schema notes", "Query examples"],
+      "skills": [
+        {"name": "MongoDB", "level": 4},
+        {"name": "REST APIs", "level": 3}
+      ]
+    },
+    {
+      "title": "Transformer Fine-Tune",
+      "description": "Fine-tune a small transformer on domain tickets and compare it to the classic baseline.",
+      "difficulty": 5,
+      "duration_hours": 30,
+      "technologies": ["Transformers", "Python"],
+      "deliverables": ["Fine-tune script", "Eval table", "Cost note"],
+      "skills": [
+        {"name": "Transformers", "level": 4},
+        {"name": "NLP", "level": 4},
+        {"name": "Deep Learning", "level": 3}
+      ]
+    },
+    {
+      "title": "Experiment Design Notebook",
+      "description": "Design an A/B check for a learning intervention and compute required sample size.",
+      "difficulty": 3,
+      "duration_hours": 10,
+      "technologies": ["Python", "statistics"],
+      "deliverables": ["Power calculation", "Decision memo"],
+      "skills": [
+        {"name": "Statistics", "level": 4},
+        {"name": "Data Analysis", "level": 3},
+        {"name": "Python", "level": 3}
+      ]
+    }
+  ],
+  "mentors": [
+    {
+      "name": "Priya Nair",
+      "title": "Staff ML Engineer",
+      "bio": "Ships classical ML into production and coaches feature reviews.",
+      "years_experience": 8,
+      "available_hours_per_month": 8,
+      "max_mentees": 3,
+      "domains": ["AI/ML", "Data"],
+      "skills": [
+        {"name": "Machine Learning", "level": 5},
+        {"name": "Deep Learning", "level": 4},
+        {"name": "Python", "level": 5},
+        {"name": "Feature Engineering", "level": 5}
+      ]
+    },
+    {
+      "name": "Arjun Mehta",
+      "title": "MLOps Lead",
+      "bio": "Owns training pipelines, registries, and on-call for model serving.",
+      "years_experience": 10,
+      "available_hours_per_month": 6,
+      "max_mentees": 2,
+      "domains": ["AI/ML", "DevOps"],
+      "skills": [
+        {"name": "MLOps", "level": 5},
+        {"name": "Model Deployment", "level": 5},
+        {"name": "Docker", "level": 5},
+        {"name": "Kubernetes", "level": 4}
+      ]
+    },
+    {
+      "name": "Sara Chen",
+      "title": "GenAI Engineer",
+      "bio": "Designs grounded RAG systems and prompt eval harnesses.",
+      "years_experience": 6,
+      "available_hours_per_month": 10,
+      "max_mentees": 4,
+      "domains": ["AI/ML", "GenAI"],
+      "skills": [
+        {"name": "RAG", "level": 5},
+        {"name": "LLMs", "level": 5},
+        {"name": "Vector Databases", "level": 4},
+        {"name": "Prompt Engineering", "level": 5}
+      ]
+    },
+    {
+      "name": "Daniel Okonkwo",
+      "title": "Backend Engineer",
+      "bio": "Builds Python APIs and data stores for internal platforms.",
+      "years_experience": 9,
+      "available_hours_per_month": 8,
+      "max_mentees": 3,
+      "domains": ["Software Engineering"],
+      "skills": [
+        {"name": "FastAPI", "level": 5},
+        {"name": "PostgreSQL", "level": 5},
+        {"name": "REST APIs", "level": 5},
+        {"name": "Python", "level": 5}
+      ]
+    },
+    {
+      "name": "Maya Patel",
+      "title": "Senior Data Analyst",
+      "bio": "Turns messy warehouse tables into decisions with SQL and stats.",
+      "years_experience": 7,
+      "available_hours_per_month": 6,
+      "max_mentees": 3,
+      "domains": ["Data"],
+      "skills": [
+        {"name": "Statistics", "level": 5},
+        {"name": "Data Analysis", "level": 5},
+        {"name": "SQL", "level": 5},
+        {"name": "Pandas", "level": 4}
+      ]
+    },
+    {
+      "name": "Leo Rossi",
+      "title": "NLP Engineer",
+      "bio": "Fine-tunes language models and reviews evaluation sets.",
+      "years_experience": 8,
+      "available_hours_per_month": 5,
+      "max_mentees": 2,
+      "domains": ["AI/ML", "NLP"],
+      "skills": [
+        {"name": "NLP", "level": 5},
+        {"name": "Transformers", "level": 5},
+        {"name": "LLMs", "level": 4}
+      ]
+    },
+    {
+      "name": "Hana Kim",
+      "title": "Frontend Engineer",
+      "bio": "Ships TypeScript React apps and design-system work.",
+      "years_experience": 6,
+      "available_hours_per_month": 8,
+      "max_mentees": 3,
+      "domains": ["Software Engineering"],
+      "skills": [
+        {"name": "React", "level": 5},
+        {"name": "TypeScript", "level": 5},
+        {"name": "JavaScript", "level": 5}
+      ]
+    },
+    {
+      "name": "Omar Hassan",
+      "title": "Cloud Engineer",
+      "bio": "Runs CI, containers, and AWS accounts for ML teams.",
+      "years_experience": 11,
+      "available_hours_per_month": 4,
+      "max_mentees": 2,
+      "domains": ["Cloud", "DevOps"],
+      "skills": [
+        {"name": "AWS", "level": 5},
+        {"name": "Docker", "level": 4},
+        {"name": "CI/CD", "level": 5},
+        {"name": "Kubernetes", "level": 4}
+      ]
+    },
+    {
+      "name": "Elena Petrova",
+      "title": "Computer Vision Specialist",
+      "bio": "Trains vision models on small industrial datasets.",
+      "years_experience": 7,
+      "available_hours_per_month": 6,
+      "max_mentees": 2,
+      "domains": ["AI/ML"],
+      "skills": [
+        {"name": "Computer Vision", "level": 5},
+        {"name": "Deep Learning", "level": 5},
+        {"name": "Python", "level": 4}
+      ]
+    },
+    {
+      "name": "James Wright",
+      "title": "Principal Engineer",
+      "bio": "Reviews system design and Java services for platform teams.",
+      "years_experience": 14,
+      "available_hours_per_month": 4,
+      "max_mentees": 2,
+      "domains": ["Software Engineering"],
+      "skills": [
+        {"name": "System Design", "level": 5},
+        {"name": "Java", "level": 5},
+        {"name": "REST APIs", "level": 4},
+        {"name": "Git", "level": 4}
+      ]
+    }
+  ]
+}

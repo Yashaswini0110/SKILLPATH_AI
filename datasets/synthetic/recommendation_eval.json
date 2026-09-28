@@ -1,0 +1,62 @@
+{
+  "synthetic": true,
+  "notes": "Manually labeled relevant catalog courses for synthetic gap profiles. Not real employees. Used only for offline ranking metrics.",
+  "k": 5,
+  "queries": [
+    {
+      "id": "genai-foundations",
+      "target_role": "GenAI Engineer",
+      "formats": ["video", "hands-on"],
+      "known_skills": ["Python", "Machine Learning"],
+      "open_gaps": [
+        {"name": "LLMs", "gap": 3.2, "priority": "CRITICAL", "current_level": 1},
+        {"name": "RAG", "gap": 3.0, "priority": "CRITICAL", "current_level": 1},
+        {"name": "Vector Databases", "gap": 2.4, "priority": "HIGH", "current_level": 1},
+        {"name": "Prompt Engineering", "gap": 2.2, "priority": "HIGH", "current_level": 1}
+      ],
+      "relevant_courses": [
+        "Large Language Models in Practice",
+        "Retrieval-Augmented Generation",
+        "Vector Search Lab",
+        "Prompt Engineering Workshop"
+      ]
+    },
+    {
+      "id": "backend-services",
+      "target_role": "Backend Engineer",
+      "formats": ["hands-on"],
+      "known_skills": ["Python", "Git"],
+      "open_gaps": [
+        {"name": "FastAPI", "gap": 2.8, "priority": "CRITICAL", "current_level": 1},
+        {"name": "REST APIs", "gap": 2.0, "priority": "HIGH", "current_level": 2},
+        {"name": "PostgreSQL", "gap": 1.6, "priority": "HIGH", "current_level": 2}
+      ],
+      "relevant_courses": [
+        "FastAPI Services",
+        "SQL for Analysts",
+        "Java Backend Basics",
+        "System Design Primer"
+      ]
+    },
+    {
+      "id": "mlops-ship",
+      "target_role": "MLOps Engineer",
+      "formats": ["video", "hands-on"],
+      "known_skills": ["Python", "Machine Learning"],
+      "open_gaps": [
+        {"name": "MLOps", "gap": 3.4, "priority": "CRITICAL", "current_level": 0},
+        {"name": "Docker", "gap": 2.0, "priority": "HIGH", "current_level": 1},
+        {"name": "Kubernetes", "gap": 2.6, "priority": "HIGH", "current_level": 0},
+        {"name": "CI/CD", "gap": 2.1, "priority": "HIGH", "current_level": 1},
+        {"name": "Model Deployment", "gap": 2.8, "priority": "CRITICAL", "current_level": 0}
+      ],
+      "relevant_courses": [
+        "MLOps in Practice",
+        "Docker for Practitioners",
+        "Kubernetes Basics",
+        "CI/CD Pipelines",
+        "Model Deployment Lab"
+      ]
+    }
+  ]
+}

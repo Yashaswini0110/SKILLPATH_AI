@@ -1,0 +1,36 @@
+{
+  "synthetic": true,
+  "notes": "Synthetic path queries. Missing skills are still unknown. Not real employees.",
+  "queries": [
+    {
+      "id": "rag-chain",
+      "target_gaps": ["RAG"],
+      "missing": [
+        "Statistics",
+        "Machine Learning",
+        "Deep Learning",
+        "NLP",
+        "Transformers",
+        "LLMs",
+        "Vector Databases",
+        "RAG"
+      ]
+    },
+    {
+      "id": "mlops-chain",
+      "target_gaps": ["MLOps", "Model Deployment"],
+      "missing": [
+        "Python",
+        "Machine Learning",
+        "Docker",
+        "CI/CD",
+        "Git",
+        "Kubernetes",
+        "MLOps",
+        "FastAPI",
+        "REST APIs",
+        "Model Deployment"
+      ]
+    }
+  ]
+}

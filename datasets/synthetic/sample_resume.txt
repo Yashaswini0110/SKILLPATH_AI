@@ -1,0 +1,18 @@
+Alex Rivera
+Software Engineer
+
+Summary
+Backend engineer moving into applied ML.
+
+Skills
+Python, SQL, Machine Learning, Deep Learning, NLP, Docker, K8s, Postgres
+
+Experience
+ML Engineer Intern, Northwind (2023-2024)
+- Developed Python services for feature pipelines with 2 years of production ownership.
+- Trained supervised Machine Learning models and a Deep Learning ranking network.
+- Deployed jobs with Docker and Kubernetes (K8s).
+- Queried PostgreSQL and wrote SQL for experiment tracking.
+
+Projects
+- Built an NLP classifier for support tickets.

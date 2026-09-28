@@ -1,0 +1,262 @@
+{
+  "version": 1,
+  "notes": "Phase 2 starter taxonomy. Catalog `name` is stable for UUID5 ids. canonical_name is the normalization key.",
+  "skills": [
+    {
+      "name": "Python",
+      "canonical_name": "Python",
+      "category": "Programming",
+      "description": "General-purpose programming language used in data and backend work.",
+      "difficulty": 2,
+      "aliases": ["py", "python3", "Python 3"]
+    },
+    {
+      "name": "Java",
+      "canonical_name": "Java",
+      "category": "Programming",
+      "description": "Object-oriented language used in enterprise systems.",
+      "difficulty": 3,
+      "aliases": []
+    },
+    {
+      "name": "JavaScript",
+      "canonical_name": "JavaScript",
+      "category": "Programming",
+      "description": "Language for web applications.",
+      "difficulty": 2,
+      "aliases": ["js", "Javascript", "ECMAScript"]
+    },
+    {
+      "name": "TypeScript",
+      "canonical_name": "TypeScript",
+      "category": "Programming",
+      "description": "Typed superset of JavaScript.",
+      "difficulty": 3,
+      "aliases": ["ts"]
+    },
+    {
+      "name": "SQL",
+      "canonical_name": "SQL",
+      "category": "Programming",
+      "description": "Structured query language for relational data.",
+      "difficulty": 2,
+      "aliases": ["Structured Query Language", "T-SQL", "tsql"]
+    },
+    {
+      "name": "Git",
+      "canonical_name": "Git",
+      "category": "Software Engineering",
+      "description": "Distributed version control.",
+      "difficulty": 1,
+      "aliases": ["git scm", "version control"]
+    },
+    {
+      "name": "REST APIs",
+      "canonical_name": "REST APIs",
+      "category": "Software Engineering",
+      "description": "HTTP resource-oriented API design.",
+      "difficulty": 3,
+      "aliases": ["REST", "REST API", "RESTful API", "RESTful APIs", "restful"]
+    },
+    {
+      "name": "FastAPI",
+      "canonical_name": "FastAPI",
+      "category": "Software Engineering",
+      "description": "Python web framework for APIs.",
+      "difficulty": 3,
+      "aliases": ["fast api"]
+    },
+    {
+      "name": "React",
+      "canonical_name": "React",
+      "category": "Software Engineering",
+      "description": "Component-based UI library.",
+      "difficulty": 3,
+      "aliases": ["React.js"]
+    },
+    {
+      "name": "System Design",
+      "canonical_name": "System Design",
+      "category": "Software Engineering",
+      "description": "Architecture of scalable software systems.",
+      "difficulty": 4,
+      "aliases": ["systems design", "software architecture"]
+    },
+    {
+      "name": "Statistics",
+      "canonical_name": "Statistics",
+      "category": "Data Science",
+      "description": "Probability, inference, and descriptive statistics.",
+      "difficulty": 3,
+      "aliases": ["stats", "probability and statistics"]
+    },
+    {
+      "name": "Data Analysis",
+      "canonical_name": "Data Analysis",
+      "category": "Data Science",
+      "description": "Exploratory analysis and reporting.",
+      "difficulty": 2,
+      "aliases": ["data analytics", "exploratory data analysis", "EDA"]
+    },
+    {
+      "name": "Pandas",
+      "canonical_name": "Pandas",
+      "category": "Data Science",
+      "description": "Python library for tabular data.",
+      "difficulty": 2,
+      "aliases": ["pandas library"]
+    },
+    {
+      "name": "Data Visualization",
+      "canonical_name": "Data Visualization",
+      "category": "Data Science",
+      "description": "Charts and visual communication of data.",
+      "difficulty": 2,
+      "aliases": ["data viz", "dataviz", "data visualisation"]
+    },
+    {
+      "name": "Machine Learning",
+      "canonical_name": "Machine Learning",
+      "category": "Machine Learning",
+      "description": "Supervised and unsupervised learning methods.",
+      "difficulty": 4,
+      "aliases": ["ML", "machine-learning"]
+    },
+    {
+      "name": "Deep Learning",
+      "canonical_name": "Deep Learning",
+      "category": "Deep Learning",
+      "description": "Neural network based learning.",
+      "difficulty": 5,
+      "aliases": ["DL", "deep-learning", "deeplearning", "neural networks"]
+    },
+    {
+      "name": "NLP",
+      "canonical_name": "Natural Language Processing",
+      "category": "NLP",
+      "description": "Natural language processing.",
+      "difficulty": 4,
+      "aliases": ["nlp", "natural language processing", "natural-language-processing"]
+    },
+    {
+      "name": "Computer Vision",
+      "canonical_name": "Computer Vision",
+      "category": "Machine Learning",
+      "description": "Image and video understanding.",
+      "difficulty": 4,
+      "aliases": ["CV", "computer-vision", "image recognition"]
+    },
+    {
+      "name": "Feature Engineering",
+      "canonical_name": "Feature Engineering",
+      "category": "Machine Learning",
+      "description": "Constructing model inputs from raw data.",
+      "difficulty": 3,
+      "aliases": ["feature-engineering"]
+    },
+    {
+      "name": "LLMs",
+      "canonical_name": "Large Language Models",
+      "category": "GenAI",
+      "description": "Large language models.",
+      "difficulty": 4,
+      "aliases": ["LLM", "large language model", "large language models"]
+    },
+    {
+      "name": "Transformers",
+      "canonical_name": "Transformers",
+      "category": "GenAI",
+      "description": "Attention-based sequence models.",
+      "difficulty": 5,
+      "aliases": ["transformer", "transformer models"]
+    },
+    {
+      "name": "RAG",
+      "canonical_name": "Retrieval-Augmented Generation",
+      "category": "GenAI",
+      "description": "Retrieval-augmented generation.",
+      "difficulty": 4,
+      "aliases": ["retrieval-augmented generation", "retrieval augmented generation"]
+    },
+    {
+      "name": "Prompt Engineering",
+      "canonical_name": "Prompt Engineering",
+      "category": "GenAI",
+      "description": "Designing effective prompts for LLMs.",
+      "difficulty": 3,
+      "aliases": ["prompt-engineering"]
+    },
+    {
+      "name": "Vector Databases",
+      "canonical_name": "Vector Databases",
+      "category": "GenAI",
+      "description": "Stores for embedding retrieval.",
+      "difficulty": 3,
+      "aliases": ["vector db", "vector database", "vectordb"]
+    },
+    {
+      "name": "PostgreSQL",
+      "canonical_name": "PostgreSQL",
+      "category": "Databases",
+      "description": "Relational database system.",
+      "difficulty": 3,
+      "aliases": ["Postgres", "postgresql", "pg"]
+    },
+    {
+      "name": "MongoDB",
+      "canonical_name": "MongoDB",
+      "category": "Databases",
+      "description": "Document database.",
+      "difficulty": 2,
+      "aliases": ["mongo", "Mongo"]
+    },
+    {
+      "name": "AWS",
+      "canonical_name": "Amazon Web Services",
+      "category": "Cloud",
+      "description": "Amazon Web Services cloud platform.",
+      "difficulty": 3,
+      "aliases": ["aws", "Amazon Web Services"]
+    },
+    {
+      "name": "Docker",
+      "canonical_name": "Docker",
+      "category": "DevOps",
+      "description": "Containerization platform.",
+      "difficulty": 2,
+      "aliases": ["containers", "docker engine"]
+    },
+    {
+      "name": "Kubernetes",
+      "canonical_name": "Kubernetes",
+      "category": "DevOps",
+      "description": "Container orchestration.",
+      "difficulty": 4,
+      "aliases": ["K8s", "k8s", "kube"]
+    },
+    {
+      "name": "CI/CD",
+      "canonical_name": "Continuous Integration and Delivery",
+      "category": "DevOps",
+      "description": "Continuous integration and delivery.",
+      "difficulty": 3,
+      "aliases": ["CICD", "CI CD", "continuous integration"]
+    },
+    {
+      "name": "MLOps",
+      "canonical_name": "MLOps",
+      "category": "MLOps",
+      "description": "Operationalizing machine learning systems.",
+      "difficulty": 4,
+      "aliases": ["ml ops", "ML Ops"]
+    },
+    {
+      "name": "Model Deployment",
+      "canonical_name": "Model Deployment",
+      "category": "MLOps",
+      "description": "Serving models in production.",
+      "difficulty": 4,
+      "aliases": ["model serving", "ml serving"]
+    }
+  ]
+}

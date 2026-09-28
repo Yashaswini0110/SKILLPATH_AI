@@ -1,0 +1,44 @@
+{
+  "synthetic": true,
+  "notes": "Graded relevance for synthetic gap ranking. 3 = required and missing, 2 = required partial, 1 = preferred missing, 0 = closed. Not real employees.",
+  "queries": [
+    {
+      "id": "ml-engineer-partial",
+      "skills": [
+        {"name": "Deep Learning", "required": 4, "current": 0, "importance": 1.0, "confidence": 1.0, "criticality": 0.85, "evidence": 1.0},
+        {"name": "Python", "required": 4, "current": 4, "importance": 1.0, "confidence": 0.8, "criticality": 0.95, "evidence": 0.8},
+        {"name": "Machine Learning", "required": 4, "current": 2, "importance": 1.0, "confidence": 0.7, "criticality": 0.95, "evidence": 0.7},
+        {"name": "MLOps", "required": 3, "current": 0, "importance": 0.6, "confidence": 1.0, "criticality": 0.80, "evidence": 1.0},
+        {"name": "Docker", "required": 3, "current": 2, "importance": 0.6, "confidence": 0.6, "criticality": 0.60, "evidence": 0.6},
+        {"name": "Statistics", "required": 3, "current": 0, "importance": 0.6, "confidence": 1.0, "criticality": 0.70, "evidence": 1.0}
+      ],
+      "relevance": {
+        "Deep Learning": 3,
+        "Machine Learning": 2,
+        "MLOps": 1,
+        "Statistics": 1,
+        "Docker": 1,
+        "Python": 0
+      }
+    },
+    {
+      "id": "genai-empty",
+      "skills": [
+        {"name": "LLMs", "required": 4, "current": 0, "importance": 1.0, "confidence": 1.0, "criticality": 0.95, "evidence": 1.0},
+        {"name": "RAG", "required": 4, "current": 0, "importance": 1.0, "confidence": 1.0, "criticality": 0.95, "evidence": 1.0},
+        {"name": "Python", "required": 4, "current": 3, "importance": 1.0, "confidence": 0.6, "criticality": 0.90, "evidence": 0.6},
+        {"name": "Vector Databases", "required": 4, "current": 0, "importance": 1.0, "confidence": 1.0, "criticality": 0.85, "evidence": 1.0},
+        {"name": "Prompt Engineering", "required": 4, "current": 1, "importance": 1.0, "confidence": 0.7, "criticality": 0.70, "evidence": 0.7},
+        {"name": "Transformers", "required": 3, "current": 0, "importance": 0.6, "confidence": 1.0, "criticality": 0.80, "evidence": 1.0}
+      ],
+      "relevance": {
+        "LLMs": 3,
+        "RAG": 3,
+        "Vector Databases": 3,
+        "Prompt Engineering": 2,
+        "Python": 2,
+        "Transformers": 1
+      }
+    }
+  ]
+}

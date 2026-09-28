@@ -1,0 +1,396 @@
+{
+  "version": 1,
+  "notes": "Phase 16 MCQ bank. correct_index is 0-based. Do not expose it on GET.",
+  "assessments": [
+    {
+      "skill": "Python",
+      "title": "Python quiz",
+      "questions": [
+        {
+          "prompt": "What does len([1, 2, 3]) return?",
+          "choices": ["2", "3", "4", "None"],
+          "correct_index": 1,
+          "explanation": "len counts items in the list, so three values return 3."
+        },
+        {
+          "prompt": "Which keyword defines a function?",
+          "choices": ["def", "func", "function", "lambda"],
+          "correct_index": 0,
+          "explanation": "def is the statement used to define a named function."
+        },
+        {
+          "prompt": "What is the type of True?",
+          "choices": ["bool", "int", "str", "NoneType"],
+          "correct_index": 0,
+          "explanation": "True and False are boolean values."
+        },
+        {
+          "prompt": "Which collection is ordered and mutable?",
+          "choices": ["tuple", "set", "list", "frozenset"],
+          "correct_index": 2,
+          "explanation": "A list keeps insertion order and can be changed."
+        }
+      ]
+    },
+    {
+      "skill": "REST APIs",
+      "title": "REST APIs quiz",
+      "questions": [
+        {
+          "prompt": "Which HTTP method is used to create a resource?",
+          "choices": ["GET", "POST", "DELETE", "HEAD"],
+          "correct_index": 1,
+          "explanation": "POST typically creates a new resource."
+        },
+        {
+          "prompt": "A 404 status means:",
+          "choices": ["Created", "Unauthorized", "Not found", "Server error"],
+          "correct_index": 2,
+          "explanation": "404 means the requested resource does not exist."
+        },
+        {
+          "prompt": "Which verb should be safe and idempotent?",
+          "choices": ["POST", "PATCH", "GET", "PUT"],
+          "correct_index": 2,
+          "explanation": "GET must not change server state."
+        },
+        {
+          "prompt": "JSON in REST APIs is usually sent with which header?",
+          "choices": ["Accept-Language", "Content-Type: application/json", "Cookie", "Host"],
+          "correct_index": 1,
+          "explanation": "Content-Type tells the server the body is JSON."
+        }
+      ]
+    },
+    {
+      "skill": "FastAPI",
+      "title": "FastAPI quiz",
+      "questions": [
+        {
+          "prompt": "FastAPI request bodies are typically validated with:",
+          "choices": ["Django forms", "Pydantic models", "XML schema", "Jinja"],
+          "correct_index": 1,
+          "explanation": "Pydantic models define and validate request payloads."
+        },
+        {
+          "prompt": "Which decorator declares a GET route?",
+          "choices": ["@app.get", "@app.route_get", "@app.fetch", "@app.read"],
+          "correct_index": 0,
+          "explanation": "@app.get maps a path to a GET handler."
+        },
+        {
+          "prompt": "FastAPI generates interactive docs at:",
+          "choices": ["/admin", "/docs", "/swagger-only", "/openapi.html"],
+          "correct_index": 1,
+          "explanation": "OpenAPI docs are served at /docs by default."
+        },
+        {
+          "prompt": "Path parameters are declared as:",
+          "choices": ["query strings only", "function arguments matching the path", "global variables", "cookies"],
+          "correct_index": 1,
+          "explanation": "Function parameters with the same name as the path segment are path params."
+        }
+      ]
+    },
+    {
+      "skill": "PostgreSQL",
+      "title": "PostgreSQL quiz",
+      "questions": [
+        {
+          "prompt": "Which SQL clause filters rows?",
+          "choices": ["SELECT", "WHERE", "FROM", "ORDER BY"],
+          "correct_index": 1,
+          "explanation": "WHERE restricts which rows are returned."
+        },
+        {
+          "prompt": "A PRIMARY KEY must be:",
+          "choices": ["nullable", "unique and not null", "a string", "encrypted"],
+          "correct_index": 1,
+          "explanation": "Primary keys uniquely identify a row and cannot be null."
+        },
+        {
+          "prompt": "Which type stores JSON documents natively?",
+          "choices": ["TEXT", "VARCHAR", "JSONB", "BLOB"],
+          "correct_index": 2,
+          "explanation": "JSONB is PostgreSQL's binary JSON type."
+        },
+        {
+          "prompt": "INNER JOIN returns rows that:",
+          "choices": ["exist in the left table only", "match in both tables", "exist in the right table only", "are duplicates"],
+          "correct_index": 1,
+          "explanation": "INNER JOIN keeps rows with matches on both sides."
+        }
+      ]
+    },
+    {
+      "skill": "SQL",
+      "title": "SQL quiz",
+      "questions": [
+        {
+          "prompt": "GROUP BY is used to:",
+          "choices": ["sort rows", "aggregate rows by a column", "delete rows", "rename tables"],
+          "correct_index": 1,
+          "explanation": "GROUP BY collapses rows that share a key so aggregates can be computed."
+        },
+        {
+          "prompt": "COUNT(*) counts:",
+          "choices": ["distinct values only", "all rows including those with nulls", "only numeric columns", "indexes"],
+          "correct_index": 1,
+          "explanation": "COUNT(*) includes every row in the group."
+        },
+        {
+          "prompt": "Which statement changes existing rows?",
+          "choices": ["INSERT", "UPDATE", "CREATE", "GRANT"],
+          "correct_index": 1,
+          "explanation": "UPDATE modifies rows that already exist."
+        },
+        {
+          "prompt": "A foreign key points to:",
+          "choices": ["a random UUID", "a referenced table's key", "an index name", "a view"],
+          "correct_index": 1,
+          "explanation": "A foreign key references a primary or unique key in another table."
+        }
+      ]
+    },
+    {
+      "skill": "Statistics",
+      "title": "Statistics quiz",
+      "questions": [
+        {
+          "prompt": "The mean is:",
+          "choices": ["the middle value", "the most common value", "the average of values", "the spread"],
+          "correct_index": 2,
+          "explanation": "The mean is the arithmetic average."
+        },
+        {
+          "prompt": "Variance measures:",
+          "choices": ["central tendency", "spread around the mean", "sample size", "correlation sign"],
+          "correct_index": 1,
+          "explanation": "Variance is the average squared distance from the mean."
+        },
+        {
+          "prompt": "A probability must lie between:",
+          "choices": ["-1 and 1", "0 and 1", "0 and 100 only as an integer", "1 and 5"],
+          "correct_index": 1,
+          "explanation": "A probability is a number from 0 through 1."
+        },
+        {
+          "prompt": "Train/test split is used to:",
+          "choices": ["compute means", "estimate generalization", "normalize strings", "draw charts"],
+          "correct_index": 1,
+          "explanation": "Held-out data estimates how well a model generalizes."
+        }
+      ]
+    },
+    {
+      "skill": "Machine Learning",
+      "title": "Machine Learning quiz",
+      "questions": [
+        {
+          "prompt": "Supervised learning uses:",
+          "choices": ["unlabeled data only", "labeled input-output pairs", "random rewards", "clustering only"],
+          "correct_index": 1,
+          "explanation": "Supervised models learn from features plus known labels."
+        },
+        {
+          "prompt": "Overfitting means the model:",
+          "choices": ["fits training data too closely and generalizes poorly", "cannot fit training data", "has too little capacity", "has no features"],
+          "correct_index": 0,
+          "explanation": "An overfit model memorizes training examples."
+        },
+        {
+          "prompt": "A common classification metric is:",
+          "choices": ["RMSE only", "accuracy", "page rank", "BLEU only"],
+          "correct_index": 1,
+          "explanation": "Accuracy is the share of correct class predictions."
+        },
+        {
+          "prompt": "A feature is:",
+          "choices": ["the label to predict", "an input variable", "the loss function", "the optimizer"],
+          "correct_index": 1,
+          "explanation": "Features are the inputs the model uses."
+        }
+      ]
+    },
+    {
+      "skill": "Deep Learning",
+      "title": "Deep Learning quiz",
+      "questions": [
+        {
+          "prompt": "A neural network layer applies:",
+          "choices": ["only sorting", "weighted transforms plus a nonlinearity", "SQL joins", "disk compression"],
+          "correct_index": 1,
+          "explanation": "Layers combine linear transforms with activation functions."
+        },
+        {
+          "prompt": "Backpropagation computes:",
+          "choices": ["random labels", "gradients of the loss", "test accuracy only", "learning rate schedules only"],
+          "correct_index": 1,
+          "explanation": "Backprop sends loss gradients backward through the network."
+        },
+        {
+          "prompt": "ReLU is:",
+          "choices": ["a loss", "an optimizer", "an activation function", "a dataset"],
+          "correct_index": 2,
+          "explanation": "ReLU(x) = max(0, x) is a common activation."
+        },
+        {
+          "prompt": "A GPU helps deep learning by:",
+          "choices": ["storing passwords", "parallel matrix math", "writing SQL", "rendering PDFs only"],
+          "correct_index": 1,
+          "explanation": "Training is dominated by large matrix multiplies."
+        }
+      ]
+    },
+    {
+      "skill": "Transformers",
+      "title": "Transformers quiz",
+      "questions": [
+        {
+          "prompt": "Self-attention lets a token:",
+          "choices": ["ignore all other tokens", "weight other tokens in the sequence", "only look left in every architecture", "replace embeddings with one-hot labels"],
+          "correct_index": 1,
+          "explanation": "Attention computes weights over other positions."
+        },
+        {
+          "prompt": "Positional encodings are needed because attention is:",
+          "choices": ["permutation-sensitive by default", "permutation-invariant without position info", "a convolution", "a recurrence"],
+          "correct_index": 1,
+          "explanation": "Without positions, attention does not know token order."
+        },
+        {
+          "prompt": "A transformer block typically includes:",
+          "choices": ["attention and a feed-forward network", "only pooling", "only batch gradient trees", "k-means"],
+          "correct_index": 0,
+          "explanation": "Each block mixes attention with an MLP."
+        },
+        {
+          "prompt": "The original transformer paper is often used for:",
+          "choices": ["sequence transduction", "disk formatting", "CSS layout", "DNS lookup"],
+          "correct_index": 0,
+          "explanation": "Transformers were introduced for sequence-to-sequence tasks."
+        }
+      ]
+    },
+    {
+      "skill": "LLMs",
+      "title": "LLMs quiz",
+      "questions": [
+        {
+          "prompt": "An LLM is typically trained to:",
+          "choices": ["predict the next token", "sort files", "compile C", "draw UML only"],
+          "correct_index": 0,
+          "explanation": "Causal language models predict the next token given context."
+        },
+        {
+          "prompt": "A token is:",
+          "choices": ["always one English word", "a subword or word piece the model reads", "a GPU core", "a SQL row"],
+          "correct_index": 1,
+          "explanation": "Tokenizers split text into model vocabulary pieces."
+        },
+        {
+          "prompt": "Hallucination means the model:",
+          "choices": ["runs out of memory", "produces fluent but ungrounded text", "refuses all answers", "only copies training data verbatim"],
+          "correct_index": 1,
+          "explanation": "The model can invent facts that are not in the context."
+        },
+        {
+          "prompt": "Context window is:",
+          "choices": ["the GPU temperature", "how much text the model can attend to at once", "the learning rate", "the batch size only"],
+          "correct_index": 1,
+          "explanation": "The context window limits prompt plus generation length."
+        }
+      ]
+    },
+    {
+      "skill": "RAG",
+      "title": "RAG quiz",
+      "questions": [
+        {
+          "prompt": "RAG stands for:",
+          "choices": ["Random Access Graph", "Retrieval-Augmented Generation", "Recursive Auto Gradient", "Ranked Answer Group"],
+          "correct_index": 1,
+          "explanation": "RAG retrieves supporting text, then generates with that context."
+        },
+        {
+          "prompt": "The retriever's job is to:",
+          "choices": ["sample GPU kernels", "find relevant documents for the question", "fine-tune every token", "render HTML"],
+          "correct_index": 1,
+          "explanation": "Retrieval supplies the generator with evidence."
+        },
+        {
+          "prompt": "Embeddings are used to:",
+          "choices": ["compare text in a vector space", "store passwords", "define CSS", "compile SQL"],
+          "correct_index": 0,
+          "explanation": "Similar text maps to nearby vectors for search."
+        },
+        {
+          "prompt": "A grounded RAG answer should:",
+          "choices": ["ignore retrieved passages", "use retrieved passages as evidence", "always browse the public web", "return only a cosine score"],
+          "correct_index": 1,
+          "explanation": "The generator should stay faithful to retrieved context."
+        }
+      ]
+    },
+    {
+      "skill": "Vector Databases",
+      "title": "Vector Databases quiz",
+      "questions": [
+        {
+          "prompt": "A vector database is optimized for:",
+          "choices": ["nearest-neighbor search over embeddings", "payroll", "CSS", "SMTP"],
+          "correct_index": 0,
+          "explanation": "It stores vectors and finds nearest neighbors quickly."
+        },
+        {
+          "prompt": "Approximate nearest neighbor trades:",
+          "choices": ["disk for RAM only", "some recall for speed", "SQL for XML", "CPU for CSS"],
+          "correct_index": 1,
+          "explanation": "ANN indexes are faster than exact search with a recall tradeoff."
+        },
+        {
+          "prompt": "A common similarity metric is:",
+          "choices": ["cosine similarity", "page rank", "gzip ratio", "TLS version"],
+          "correct_index": 0,
+          "explanation": "Cosine similarity compares direction of two vectors."
+        },
+        {
+          "prompt": "Metadata filters on a vector store let you:",
+          "choices": ["restrict search to a subset of rows", "train the LLM", "draw charts", "hash passwords"],
+          "correct_index": 0,
+          "explanation": "Filters apply structured constraints alongside vector search."
+        }
+      ]
+    },
+    {
+      "skill": "Docker",
+      "title": "Docker quiz",
+      "questions": [
+        {
+          "prompt": "A Dockerfile defines:",
+          "choices": ["how to build an image", "a Kubernetes cluster", "a GPU driver", "a DNS record"],
+          "correct_index": 0,
+          "explanation": "The Dockerfile is the recipe for an image."
+        },
+        {
+          "prompt": "A container is:",
+          "choices": ["a running instance of an image", "a physical server", "a Python class", "a CSS file"],
+          "correct_index": 0,
+          "explanation": "Images are templates; containers are running processes from them."
+        },
+        {
+          "prompt": "docker compose is used to:",
+          "choices": ["run multi-service stacks from a YAML file", "compile C++", "train transformers", "edit PDFs"],
+          "correct_index": 0,
+          "explanation": "Compose starts related services together."
+        },
+        {
+          "prompt": "Volumes are used to:",
+          "choices": ["persist data outside the container filesystem", "set CPU affinity only", "define REST routes", "minify JS"],
+          "correct_index": 0,
+          "explanation": "Volumes keep data when containers are replaced."
+        }
+      ]
+    }
+  ]
+}

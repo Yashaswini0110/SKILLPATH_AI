@@ -1,0 +1,32 @@
+{
+  "synthetic": true,
+  "notes": "Labeled synthetic resumes for Phase 3 dictionary extraction evaluation. Not real employee data.",
+  "cases": [
+    {
+      "id": "ml-engineer-alex",
+      "gold_canonical_names": [
+        "Python",
+        "SQL",
+        "Machine Learning",
+        "Deep Learning",
+        "PostgreSQL",
+        "Docker",
+        "Kubernetes",
+        "Natural Language Processing"
+      ],
+      "text": "Alex Rivera\nSoftware Engineer\n\nSummary\nBackend engineer moving into applied ML. Comfortable shipping APIs and training models.\n\nSkills\nPython, SQL, Machine Learning, Deep Learning, NLP, Docker, K8s, Postgres\n\nExperience\nML Engineer Intern, Northwind (2023-2024)\n- Developed Python services for feature pipelines with 2 years of production ownership.\n- Trained supervised Machine Learning models and a Deep Learning ranking network.\n- Deployed jobs with Docker and Kubernetes (K8s).\n- Queried PostgreSQL and wrote SQL for experiment tracking.\n\nProjects\n- Built an NLP classifier for support tickets.\n"
+    },
+    {
+      "id": "data-analyst-sam",
+      "gold_canonical_names": [
+        "SQL",
+        "Python",
+        "Data Analysis",
+        "Statistics",
+        "Data Visualization",
+        "Pandas"
+      ],
+      "text": "Sam Chen\n\nEducation\nB.S. Statistics\n\nSkills\nSQL, Python, Pandas, Data Analysis, Data Visualization, stats\n\nExperience\nData Analyst, Contoso\n- Used SQL and Python for Data Analysis on weekly dashboards.\n- Built Data Visualization in Python with Pandas.\n- Applied Statistics to A/B tests.\n"
+    }
+  ]
+}

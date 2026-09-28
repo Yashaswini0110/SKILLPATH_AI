@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "skillpath-backend"
+version = "0.1.0"
+description = "SkillPath AI FastAPI backend"
+requires-python = ">=3.11"
+
+[tool.black]
+line-length = 88
+target-version = ["py311"]
+exclude = "/(\\.venv|alembic/versions)/"
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+extend-exclude = ["alembic/versions"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.mypy]
+python_version = "3.11"
+warn_unused_ignores = true
+warn_redundant_casts = true
+warn_unreachable = true
+strict_optional = true
+check_untyped_defs = true
+ignore_missing_imports = true
+plugins = ["pydantic.mypy"]
+exclude = ["alembic"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = [".", ".."]
+filterwarnings = [
+    "ignore::DeprecationWarning",
+]
+markers = [
+    "integration: learner pipeline hop tests",
+    "e2e: full register-to-reoptimize flow",
+    "performance: PRD latency targets",
+    "evaluation: synthetic ranking and ablation",
+]
+
+[tool.coverage.run]
+source = ["app"]
+omit = ["alembic/*", "tests/*"]

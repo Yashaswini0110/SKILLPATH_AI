@@ -1,0 +1,21 @@
+Senior ML Engineer
+
+Teams here also use Git for day-to-day collaboration.
+
+Responsibilities
+- Design and ship Python services for Machine Learning inference
+- Deploy Docker jobs for model serving
+- Query PostgreSQL and write SQL for experiment tracking
+
+Requirements
+- Expert Python
+- Machine Learning and Deep Learning
+- Docker
+- Must have FastAPI experience
+
+Preferred qualifications
+- Amazon Web Services
+- Kubernetes (K8s)
+- Nice to have NLP
+
+Unknown tools such as quantum knitting and TensorFlow are not in the starter catalog.

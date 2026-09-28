@@ -1,0 +1,12 @@
+.git
+.venv
+backend/.venv
+frontend/node_modules
+frontend/dist
+**/__pycache__
+**/.pytest_cache
+**/.mypy_cache
+**/.ruff_cache
+.env
+*.pyc
+_prd_extract.txt

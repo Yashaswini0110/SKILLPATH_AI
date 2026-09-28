@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "notes": "Directed PREREQUISITE_OF edges use taxonomy `name` keys. A is a prerequisite of B.",
+  "prerequisites": [
+    ["Python", "Pandas"],
+    ["Python", "FastAPI"],
+    ["Python", "Feature Engineering"],
+    ["Python", "Machine Learning"],
+    ["JavaScript", "TypeScript"],
+    ["JavaScript", "React"],
+    ["SQL", "PostgreSQL"],
+    ["SQL", "Data Analysis"],
+    ["Git", "CI/CD"],
+    ["REST APIs", "FastAPI"],
+    ["Pandas", "Data Analysis"],
+    ["Pandas", "Feature Engineering"],
+    ["Statistics", "Data Analysis"],
+    ["Statistics", "Feature Engineering"],
+    ["Statistics", "Machine Learning"],
+    ["Data Analysis", "Data Visualization"],
+    ["Data Analysis", "Machine Learning"],
+    ["Feature Engineering", "Machine Learning"],
+    ["Machine Learning", "Deep Learning"],
+    ["Machine Learning", "MLOps"],
+    ["Deep Learning", "NLP"],
+    ["Deep Learning", "Computer Vision"],
+    ["Deep Learning", "Transformers"],
+    ["NLP", "Transformers"],
+    ["Transformers", "LLMs"],
+    ["LLMs", "Prompt Engineering"],
+    ["LLMs", "RAG"],
+    ["Vector Databases", "RAG"],
+    ["Docker", "Kubernetes"],
+    ["Docker", "MLOps"],
+    ["CI/CD", "MLOps"],
+    ["Kubernetes", "MLOps"],
+    ["MLOps", "Model Deployment"],
+    ["FastAPI", "Model Deployment"]
+  ],
+  "related": [
+    ["SQL", "PostgreSQL"],
+    ["NLP", "LLMs"],
+    ["Computer Vision", "Deep Learning"]
+  ],
+  "complements": [
+    ["Docker", "Kubernetes"],
+    ["LLMs", "Vector Databases"],
+    ["Machine Learning", "Statistics"]
+  ]
+}
